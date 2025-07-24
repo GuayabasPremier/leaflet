@@ -50,7 +50,7 @@
       fillOpacity: 0.1
     },
     onEachFeature: function (feature, layer) {
-      if (feature.properties && feature.properties.nomgeo) {
+      if (feature.properties && feature.properties.NOMGEO) {
         layer.bindPopup('Alcaldía: ' + feature.properties.NOMGEO);
       }
     }
